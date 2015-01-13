@@ -1,7 +1,7 @@
 .Scontainer .logo {
 	width: 200px;
 	height: 44px;
-	background-image: url(img/proLogo.png);
+	background-image: url(img/proLogo2.png);
 	background-size: 200px 44px;
 	position: absolute;
 	top: 36px;
@@ -51,7 +51,7 @@
 .ScontainT .logo {
 	width: 100px;
 	height: 22px;
-	background-image: url(img/proLogo.png);
+	background-image: url(img/proLogo2.png);
 	background-size: 100px 22px;
 	background-position: 8px 8px;
 	position: absolute;
@@ -103,7 +103,7 @@
 .ScontainM .logo {
 	width: 100px;
 	height: 22px;
-	background-image: url(img/proLogo.png);
+	background-image: url(img/proLogo2.png);
 	background-size: 100px 22px;
 	position: absolute;
 	top: 106px;
