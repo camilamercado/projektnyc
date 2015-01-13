@@ -26,7 +26,7 @@
 	text-align: left;
 }
 
-.Scontainer p {
+.Scontainer .bodyText {
 	font-size: 21px;
 	text-align: center;
 }
@@ -68,7 +68,7 @@
 	color: #fc3104;
 }
 
-.ScontainT p {
+.ScontainT .bodyText {
 	font-size: 20px;
 	text-align: center;
 }
@@ -114,7 +114,7 @@
 	color: #fc3104;
 }
 
-.ScontainM .mainText p {
+.ScontainM .mainText .bodyText {
 	font-size: 14px!important;
 	text-align: center;
 }

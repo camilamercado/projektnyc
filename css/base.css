@@ -61,7 +61,7 @@ body {
 	height: auto;
 }
 
-.mainText p {
+.mainText .bodyText {
 	font-size: 42px;
 }
 
@@ -90,7 +90,7 @@ body {
 	height: auto;
 }
 
-.containT .mainText p {
+.containT .mainText .bodyText {
 	font-size: 24px;
 }
 
@@ -129,7 +129,7 @@ body {
 	height: auto;
 }
 
-.containM .mainText p {
+.containM .mainText .bodyText {
 	font-size: 14px;
 }
 
