@@ -113,14 +113,14 @@
 	min-height: 750px;
 	border-bottom: 1px solid lightgrey;
 	margin-bottom: 100px;
-	padding-left: 50px;
+	padding-left: 20px;
 	padding-bottom: 50px;
 	padding-top: -100px;
+	width: 290px;
 }
 
 .ScontainM .campaigns .case .caseText {
-	min-width: 300px;
-	width: 80%;
+	min-width: 290px;
 	padding-right: 8%;
 }
 
