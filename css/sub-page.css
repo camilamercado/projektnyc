@@ -9,21 +9,6 @@
 	z-index: 2;
 }
 
-/*.Scontainer .logo {
-	width: 100px;
-	height: 22px;
-	background-image: url(img/proLogo.png);
-	background-size: 100px 22px;
-	background-position: 10px 12px;
-	position: absolute;
-	top: 28px;
-	left: 60px;
-	z-index: 2;
-	border: 1px solid lightgrey;
-  	padding:10px;
-    background-repeat: no-repeat;
-}
-*/
 
 .Scontainer .mainText {
 	top: 120px;
@@ -34,6 +19,7 @@
 }
 
 .Scontainer h1 {
+	font-size: 52px;
 	margin-left: -70px;
 	color: #fc3104;
 	padding-bottom: 50px;
@@ -69,7 +55,6 @@
 
 
 .ScontainT .mainText {
-	font-size: 24px;
 	position: absolute;
 	max-width: 500px;
 	left: 100px;
@@ -79,6 +64,7 @@
 }
 
 .ScontainT h1 {
+	font-size: 44px;
 	color: #fc3104;
 }
 
@@ -124,11 +110,12 @@
 }
 
 .ScontainM h1 {
+	font-size: 30px;
 	color: #fc3104;
 }
 
 .ScontainM .mainText p {
-	font-size: 14px  !important;
+	font-size: 14px!important;
 	text-align: center;
 }
 
