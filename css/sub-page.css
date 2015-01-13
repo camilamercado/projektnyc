@@ -124,6 +124,12 @@
 	height: 37px;
 }
 
+.ScontainM .topNav img {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+}
+
 .ScontainM .topNav ul {
 	position: absolute;
 	left: -30px;
