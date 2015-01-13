@@ -99,7 +99,6 @@
 
 .ScontainM .mainText {
 	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-	font-size: 14px;
 	position: absolute;
 	width: 280px;
 	margin-left: 50%;
@@ -110,7 +109,7 @@
 }
 
 .ScontainM h1 {
-	font-size: 30px;
+	font-size: 24px;
 	color: #fc3104;
 }
 
