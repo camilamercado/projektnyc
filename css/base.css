@@ -19,12 +19,14 @@ body {
 	font-weight: 100; 
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	left: 0px;
 	height: 68px;
 	border-bottom: 1px solid lightgrey;
 	/*background-color: whitesmoke;*/
+	background-color: white;
+	z-index: 5;
 }
 
 .topNav ul {

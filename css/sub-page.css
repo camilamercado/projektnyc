@@ -3,10 +3,10 @@
 	height: 44px;
 	background-image: url(img/proLogo2.png);
 	background-size: 200px 44px;
-	position: absolute;
+	position: fixed;
 	top: 38px;
 	left: 50px;
-	z-index: 2;
+	z-index: 6;
 }
 
 
@@ -92,10 +92,10 @@
 	height: 22px;
 	background-image: url(img/proLogo2.png);
 	background-size: 100px 22px;
-	position: absolute;
+	position: fixed;
 	top: 10px;
 	left: 10px;
-	z-index: 2;
+	z-index: 6;
 }
 
 .ScontainM .mainText {

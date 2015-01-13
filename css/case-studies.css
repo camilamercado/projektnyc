@@ -1,0 +1,145 @@
+.campaigns {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	width: 100%;
+	height: 1000px;
+	border-top: 1px solid tomato;
+	position: absolute;
+	top: 150px;
+	/*padding-left: 100px;*/
+	padding-top: 50px;
+}
+
+.campaigns h1{
+	font-size: 24px;
+	position: absolute;
+	top: -50px;
+	left: 100px;
+	margin-left: 0px;
+}
+
+.campaigns .case {
+	min-height: 450px;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 100px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+.campaigns .case .caseText {
+	min-width: 350px;
+	width: 40%;
+	float: left;
+	padding-right: 8%;
+}
+
+.campaigns .case .visual {
+
+	width: 40%;
+	float: left;
+	margin-top: -30px;
+}
+
+
+/*******************TABLET**********************/
+
+
+.ScontainT .campaigns {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	width: 100%;
+	height: 1000px;
+	border-top: 1px solid tomato;
+	position: absolute;
+	top: 150px;
+	padding-top: 50px;
+}
+
+.ScontainT .campaigns h1{
+	font-size: 24px;
+	position: absolute;
+	top: -50px;
+	left: 100px;
+	margin-left: 0px;
+}
+
+.ScontainT .campaigns .case {
+	min-height: 750px;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 100px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+}
+
+.ScontainT .campaigns .case .caseText {
+	min-width: 350px;
+	width: 80%;
+	padding-right: 8%;
+}
+
+/*.ScontainT .campaigns .case .visual {
+	margin-left: -30px;
+	width: 40%;
+	margin-top: 50px;
+}*/
+
+.ScontainT .case .visual {
+
+	margin: auto;
+	margin-top: 60px;
+
+}
+
+/*******************TABLET**********************/
+
+
+.ScontainM .campaigns {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	width: 100%;
+	height: 1000px;
+	border-top: 1px solid tomato;
+	position: absolute;
+	top: 130px;
+	padding-top: 50px;
+}
+
+.ScontainM .campaigns h1{
+	font-size: 24px;
+	position: absolute;
+	top: -50px;
+	left: 20px;
+	margin-left: 0px;
+}
+
+.ScontainM .campaigns .case {
+	min-height: 750px;
+	border-bottom: 1px solid lightgrey;
+	margin-bottom: 100px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	padding-top: -100px;
+}
+
+.ScontainM .campaigns .case .caseText {
+	min-width: 300px;
+	width: 80%;
+	padding-right: 8%;
+}
+
+/*.ScontainT .campaigns .case .visual {
+	margin-left: -30px;
+	width: 40%;
+	margin-top: 50px;
+}*/
+
+.ScontainM .case .visual {
+
+	margin: auto;
+	margin-top: 60px;
+
+}
+
+.ScontainM .case .visual img{
+
+	width:290px;
+	height: auto;
+
+}
