@@ -14,46 +14,59 @@ body {
 }
 
 .topNav {
-	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	/*font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 100; 
+	letter-spacing: 1px;
+	text-transform: uppercase;
 	position: absolute;
 	width: 100%;
-	height: 67px;
+	left: 0px;
+	height: 68px;
 	border-bottom: 1px solid lightgrey;
+	/*background-color: whitesmoke;*/
 }
 
 .topNav ul {
+	
 	position: absolute;
-	height: 100px;
-	right: 40px;
+	height: 14px;
 	width: 100%;
 	text-decoration: none;
 	top: 40px;
 	font-size: 14px;
 	text-align: right;
-	margin-left: 10px;;
+	/*margin-left: 10px;;*/
 	
 }
 
 .topNav .menu{
+	background-color: whitesmoke;
 	display: block;
+	padding: 0px;
 }
 
 
 .topNav ul li {
+	height: 10px !important;
 	display: inline;
 	margin-right: 60px;
-	text-align: center;
+	text-align: right;
+	padding-left: 8px;
+	border-left: 1px solid white;
 }
 
 .topNav ul li:hover {
 	/*color: black ;*/
 	/*color: #dc2a03;*/
 	color: #65635f;
+	border-left: 1px solid tomato;
 }
 
 .topNav a {
 	text-decoration: none;
 	color: #A8A8A8;
+	/*color: black;*/
 }
 
 .mainText {
@@ -169,7 +182,7 @@ body {
 	display: none;
 	background-color: lightgrey;
 	position: absolute;
-	left: -30px;
+	left: -10px;
 	height: 185px;
 	width: 100%;
 	text-decoration: none;
@@ -182,7 +195,7 @@ body {
 
 
 
-.containM .topNav ul a{
+.containM .topNav  a{
 
 	color: black;
 	width: 100%;

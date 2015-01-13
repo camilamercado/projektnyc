@@ -4,7 +4,7 @@
 	background-image: url(img/proLogo2.png);
 	background-size: 200px 44px;
 	position: absolute;
-	top: 36px;
+	top: 38px;
 	left: 50px;
 	z-index: 2;
 }
@@ -12,22 +12,22 @@
 
 .Scontainer .mainText {
 	top: 120px;
-	width: 800px;
+	width: 650px;
 	position: absolute;
 	margin-left: 50%;
-	left: -400px;
+	left: -325px;
 }
 
 .Scontainer .bodyText {
-	font-size: 21px;
+	font-size: 18px;
 	text-align: center;
 }
 
 .Scontainer h1 {
-	font-size: 52px;
+	font-size: 46px;
 	margin-left: -70px;
 	color: #fc3104;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	text-align: left;
 }
 
@@ -42,7 +42,7 @@
 	background-size: 100px 22px;
 	background-position: 8px 8px;
 	position: absolute;
-	top: 67px;
+	top: 68px;
 	left: 40px;
 	z-index: 2;
 	border: 1px solid lightgrey;
@@ -93,8 +93,8 @@
 	background-image: url(img/proLogo2.png);
 	background-size: 100px 22px;
 	position: absolute;
-	top: 106px;
-	left: 30px;
+	top: 10px;
+	left: 10px;
 	z-index: 2;
 }
 
@@ -145,7 +145,7 @@
 	display: none;
 	background-color: lightgrey;
 	position: absolute;
-	left: -30px;
+	left: -10px;
 	height: 185px;
 	width: 100%;
 	text-decoration: none;
