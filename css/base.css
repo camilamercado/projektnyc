@@ -1,0 +1,153 @@
+body {
+	background: white;
+}
+
+.logo {
+	width: 600px;
+	height: 132px;
+	background-image: url(img/proLogo.png);
+	background-size: 600px 132px;
+	position: absolute;
+	top: 230px;
+	left: 100px;
+	z-index: 2;
+}
+
+.topNav {
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight: 100; letter-spacing: 1px;
+	position: absolute;
+	width: 100%;
+	height: 67px;
+	border-bottom: 1px solid lightgrey;
+}
+
+.topNav ul {
+	position: absolute;
+	height: 100px;
+	right: 40px;
+	width: 100%;
+	text-decoration: none;
+	top: 40px;
+	font-size: 14px;
+	text-align: right;
+	margin-left: 10px;;
+	
+}
+
+.topNav ul li {
+	display: inline;
+	margin-right: 60px;
+	text-align: center;
+}
+
+.topNav ul li:hover {
+	/*color: black ;*/
+	/*color: #dc2a03;*/
+	color: #65635f;
+}
+
+.topNav a {
+	text-decoration: none;
+	color: #A8A8A8;
+}
+
+.mainText {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 42px;
+	position: absolute;
+	width: auto;
+	left: 100px;
+	top: 350px;
+	font-weight: bold;
+	height: auto;
+}
+
+.mainText p {
+	/*border: 1px dashed lightgrey;*/
+}
+
+
+/****************TABLET****************/
+
+
+.containT .logo {
+	width: 400px;
+	height: 88px;
+	background-image: url(img/proLogo.png);
+	background-size: 400px 88px;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	z-index: 2;
+}
+
+.containT .mainText {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 24px;
+	position: absolute;
+	max-width: 500px;
+	left: 100px;
+	top: 250px;
+	font-weight: bold;
+	height: auto;
+}
+
+.ScontainT .topNav ul li,
+.containT .topNav ul li {
+	display: inline;
+	margin-right: 30px;
+	text-align: center;
+}
+
+
+/****************MOBILE****************/
+
+.containM .topNav {}
+
+
+.containM .logo {
+	width: 250px;
+	height: 55px;
+	background-image: url(img/proLogo.png);
+	background-size: 250px 55px;
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	z-index: 2;
+}
+
+.containM .mainText {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	font-size: 14px;
+	position: absolute;
+	max-width: 300px;
+	left: 50px;
+	top: 220px;
+	font-weight: bold;
+	height: auto;
+}
+
+.containM .topNav {
+	height: 37px;
+}
+
+.containM .topNav ul {
+	position: absolute;
+	left: -30px;
+	height: 600px;
+	width: 100%;
+	text-decoration: none;
+	top: 10px;
+	font-size: 14px;
+	text-align: left;
+	margin-left: 10px;;
+	
+}
+
+
+.containM .topNav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+
