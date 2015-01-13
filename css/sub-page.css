@@ -127,8 +127,8 @@
 	color: #fc3104;
 }
 
-.ScontainM p {
-	font-size: 14px;
+.ScontainM .mainText p {
+	font-size: 14px  !important;
 	text-align: center;
 }
 
