@@ -18,6 +18,11 @@
 	left: -400px;
 }
 
+.Scontainer .bodyText {
+	font-size: 21px;
+	text-align: center;
+}
+
 .Scontainer h1 {
 	font-size: 52px;
 	margin-left: -70px;
@@ -26,10 +31,6 @@
 	text-align: left;
 }
 
-.Scontainer .bodyText {
-	font-size: 21px;
-	text-align: center;
-}
 
 /****************TABLET****************/
 
@@ -63,14 +64,14 @@
 	left: -250px;
 }
 
+.ScontainT .bodyText {
+	font-size: 20px !important;
+	text-align: center;
+}
+
 .ScontainT h1 {
 	font-size: 44px;
 	color: #fc3104;
-}
-
-.ScontainT .bodyText {
-	font-size: 20px;
-	text-align: center;
 }
 
 .ScontainT .topNav ul li,
@@ -106,6 +107,7 @@
 	top: 120px;
 	font-weight: bold;
 	height: auto;
+	font-size: 14px!important;
 }
 
 .ScontainM h1 {
@@ -114,7 +116,7 @@
 }
 
 .ScontainM .bodyText {
-	font-size: 14px!important;
+	font-size: 14px !important;
 	text-align: center;
 }
 
