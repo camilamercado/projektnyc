@@ -3,12 +3,12 @@ body {
 }
 
 .logo {
-	width: 600px;
-	height: 132px;
+	width: 500px;
+	height: 110px;
 	background-image: url(img/proLogo2.png);
-	background-size: 600px 132px;
+	background-size: 500px 110px;
 	position: absolute;
-	top: 230px;
+	top: 200px;
 	left: 100px;
 	z-index: 2;
 }
@@ -34,6 +34,11 @@ body {
 	
 }
 
+.topNav .menu{
+	display: block;
+}
+
+
 .topNav ul li {
 	display: inline;
 	margin-right: 60px;
@@ -54,16 +59,17 @@ body {
 .mainText {
 	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	position: absolute;
-	width: 850px;
-	left: 100px;
-	top: 350px;
+	width: 500px;
+	left: 180px;
+	top: 340px;
 	font-weight: bold;
 	height: auto;
 }
 
 .mainText .bodyText {
-	font-size: 42px;
+	font-size: 24px;
 }
+
 
 
 /****************TABLET****************/
@@ -100,6 +106,10 @@ body {
 	display: inline;
 	margin-right: 30px;
 	text-align: center;
+}
+
+.containT .topNav .menu{
+	display: block;
 }
 
 
