@@ -54,7 +54,7 @@ body {
 .mainText {
 	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	position: absolute;
-	width: auto;
+	width: 850px;
 	left: 100px;
 	top: 350px;
 	font-weight: bold;
@@ -154,6 +154,11 @@ body {
 .containM .topNav ul li {
 	display: inline;
 	margin-right: 10px;
+}
+
+span {
+	display: block;
+	margin-bottom: 20px;
 }
 
 
