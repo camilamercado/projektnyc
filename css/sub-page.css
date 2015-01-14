@@ -11,16 +11,19 @@
 
 
 .Scontainer .mainText {
+	font-weight: normal;
 	top: 120px;
 	width: 650px;
 	position: absolute;
 	margin-left: 50%;
 	left: -325px;
+	white-space: normal!important;
 }
 
 .Scontainer .bodyText {
 	font-size: 18px;
 	text-align: center;
+	white-space: normal!important;
 }
 
 .Scontainer h1 {
@@ -64,7 +67,7 @@
 	left: -250px;
 }
 
-.ScontainT .bodyText {
+.ScontainT .mainText .bodyText {
 	font-size: 20px !important;
 	text-align: center;
 }

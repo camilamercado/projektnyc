@@ -74,17 +74,35 @@ body {
 .mainText {
 	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	position: absolute;
-	width: 500px;
+	width: 750px;
 	left: 180px;
 	top: 340px;
 	font-weight: bold;
 	height: auto;
+	/*border: 1px solid blue;*/
 }
 
 .mainText .bodyText {
-	font-size: 24px;
+	font-size: 18px;
+	float: left;
+	white-space: nowrap;
 }
 
+.mainText .bodySub {
+	font-size: 14px;
+	
+	white-space: nowrap;
+}
+
+.mainText .bodySub span {
+	font-size: 14px;
+	color: tomato;
+	margin-left: 70px;
+	margin: 0px!important;
+	width: 30px;
+	display: inline!important;
+	white-space: nowrap;
+}
 
 
 /****************TABLET****************/
@@ -104,15 +122,17 @@ body {
 .containT .mainText {
 	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	position: absolute;
-	max-width: 500px;
-	left: 100px;
-	top: 250px;
+	max-width: 320px;
+	left: 80px;
+	top: 270px;
 	font-weight: bold;
 	height: auto;
 }
 
+
+
 .containT .mainText .bodyText {
-	font-size: 24px;
+	font-size: 16px;
 }
 
 
@@ -158,6 +178,9 @@ body {
 	font-size: 14px;
 }
 
+.containM .mainText .bodySub {
+	font-size: 12px;
+}
 
 .containM .topNav {
 	background-color: lightgrey;
@@ -219,9 +242,6 @@ body {
 	
 }
 
-span {
-	display: block;
-	margin-bottom: 20px;
-}
+
 
 

@@ -1,3 +1,59 @@
+/*.clients {
+	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+	width: 100%;
+	height: 580px;
+	position: absolute;
+	top: 70px;
+	padding-top: 20px;
+	/*background: whitesmoke;*/
+}
+
+/*.clients img {
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: 200px;
+	width: auto;
+	padding: 5px;
+	/*border: 1px dashed lightgrey;*/
+	background: white;
+}
+
+/*.ff {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+.nike {
+	position: absolute;
+	top: 300px;
+	left: 100px;
+}
+
+.fortytwo {
+	position: absolute;
+	top: 50px;
+	left: 450px;
+}
+
+.diesel {
+	position: absolute;
+	top: 300px;
+	left: 800px;
+}
+
+.marriott {
+	position: absolute;
+	top: 50px;
+	left: 800px;
+}*/
+
+
+body {
+	background: white;
+}
+
+
 .campaigns {
 	font-family: 'Didot', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 	width: 100%;
@@ -6,8 +62,9 @@
 	position: absolute;
 	top: 150px;
 	/*padding-left: 100px;*/
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 }
+
 
 .campaigns h1{
 	font-size: 24px;
@@ -19,10 +76,18 @@
 
 .campaigns .case {
 	min-height: 450px;
-	border-bottom: 1px solid lightgrey;
-	margin-bottom: 100px;
+	border-bottom: 1px solid #A8A8A8;
 	padding-left: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 70px;
+	padding-top: 100px;
+	background-color: lightgrey;
+	opacity: 0.3;
+}
+
+.case:hover {
+	background-color: white;
+	opacity: 1;
+	-webkit-transition: opacity 1s, background-color 1s;
 }
 
 .campaigns .case .caseText {
@@ -64,7 +129,6 @@
 .ScontainT .campaigns .case {
 	min-height: 750px;
 	border-bottom: 1px solid lightgrey;
-	margin-bottom: 100px;
 	padding-left: 100px;
 	padding-bottom: 50px;
 }
@@ -98,7 +162,6 @@
 	border-top: 1px solid tomato;
 	position: absolute;
 	top: 85px;
-	padding-top: 50px;
 }
 
 .ScontainM .campaigns h1{
@@ -112,11 +175,12 @@
 .ScontainM .campaigns .case {
 	min-height: 750px;
 	border-bottom: 1px solid lightgrey;
-	margin-bottom: 100px;
 	padding-left: 20px;
 	padding-bottom: 50px;
-	padding-top: -100px;
+	padding-top: 50px;
 	width: 290px;
+	background: white;
+	opacity: 1;
 }
 
 .ScontainM .campaigns .case .caseText {
